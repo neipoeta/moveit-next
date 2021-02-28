@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 :root{
@@ -37,6 +38,8 @@ body {
 
 body, input, textarea, button {
     font: 400 1rem 'Inter', sans-serif;
+    background: linear-gradient(to left, var(--background), var(--text-highlight));
+    
 }
 
 button{
