@@ -1,16 +1,17 @@
 
+import { githubProvider } from '../config/authMethods';
+import socialMediaAuth from '../service/auth';
 import '../styles/global.css';
 
 
 
-function MyApp({ Component, pageProps }) {
+export function MyApp({ Component, pageProps }) {
+  
 
   return (
-   
-      
-        <Component {...pageProps} />
-      
-   
+
+    <Component {...pageProps} />
+    
   )
 }
 
